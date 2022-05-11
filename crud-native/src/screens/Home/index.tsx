@@ -2,7 +2,7 @@ import  Axios  from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Container, NameData, Data , ContainerItem } from './styles';
 import { useIsFocused } from '@react-navigation/native';
-import { FlatList, TouchableOpacity } from 'react-native';
+import { FlatList, Text, TouchableOpacity } from 'react-native';
 import { Button } from '../../components/Forms/Button/index';
 
 type item = {
